@@ -1,0 +1,41 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu {
+  position: relative;
+}
+
+.menu__botao {
+  display: none;
+}
+
+.menu__icone span {
+  width: 24px;
+  height: 24px;
+  display: block;
+  background: url(../assets/menu.png) no-repeat center;
+}
+
+.menu__lista {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0; /*abre alinhado à direita*/
+  padding: 10px;
+  width: 50vw;
+}
+
+.menu__botao:checked ~ .menu__lista {
+  display: block;
+}
+
+.menu__lista__titulo,
+.menu__lista__item {
+  padding: 1em;
+  color: var(--cor-terciaria);
+  background-color: #0a0a0a;
+}

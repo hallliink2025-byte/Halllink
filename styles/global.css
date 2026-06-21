@@ -1,0 +1,13 @@
+:root {
+  --cor-primaria: #ffffff;
+  --cor-segundaria: #ffc107;
+  --cor-terciaria: #ffffff;
+}
+
+body {
+  background-color: black;
+}
+
+.logo {
+  width: 100px;
+}
