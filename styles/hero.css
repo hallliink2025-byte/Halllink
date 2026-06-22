@@ -30,7 +30,7 @@
 }
 
 .hero hr {
-  width: 8rem;
+  width: 10rem;
   height: 4px;
   background-color: var(--cor-segundaria);
   border: none;
@@ -44,4 +44,20 @@
   justify-content: center;
   align-items: center;
   font-size: 1rem;
+}
+
+.hero__botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  background-color: var(--cor-segundaria);
+  font-family: var(--fonte-terciaria);
+  gap: 8px;
+  font-size: 1rem;
+  width: 80%;
+  height: 4.2rem;
+  border-radius: 36px;
+  margin: 2rem auto;
 }
