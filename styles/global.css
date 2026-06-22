@@ -2,6 +2,9 @@
   --cor-primaria: #ffffff;
   --cor-segundaria: #ffc107;
   --cor-terciaria: #ffffff;
+
+  --fonte-primaria: "Krona One";
+  --fonte-segundaria: "Montserrat";
 }
 
 body {
