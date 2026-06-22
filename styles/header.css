@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 1rem;
 }
 
 .menu {
@@ -14,8 +14,8 @@
 }
 
 .menu__icone span {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   display: block;
   background: url(../assets/menu.png) no-repeat center;
 }
