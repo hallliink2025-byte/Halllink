@@ -17,7 +17,7 @@
   width: 1.5rem;
   height: 1.5rem;
   display: block;
-  background: url(../assets/menu.png) no-repeat center;
+  background: url(../assets/menu.png) no-repeat;
 }
 
 .menu__lista {
