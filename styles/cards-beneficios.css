@@ -1,0 +1,64 @@
+.beneficios__lista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.beneficio__destaque {
+    order: -1;
+}
+
+.beneficio {
+  font-family: sans-serif;
+  color: #ffffff;
+  background-color: #0a0a0a;
+  width: 70%;
+  height: 15%;
+  display: flex;
+  text-align: center;
+  border-radius: 10px;
+  gap: 18px;
+  padding: 18px;
+  align-items: center;
+  border: 1px solid #1f1e1e;
+}
+
+.beneficio__icone {
+  width: 54px;
+  height: 54px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.beneficio__conteudo h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.beneficio__conteudo span {
+  color: var(--cor-segundaria);
+}
+
+.beneficio__conteudo p {
+  margin-top: 6px;
+  color: #a9a9a9;
+  font-size: 0.7rem;
+}
+
+.beneficio__destaque {
+    border: 1px solid #FFC400;
+    background-color: #020202;
+}
+
+
+.beneficio__destaque strong {
+    display: block;
+    margin-top: 4px;
+    font-weight: 600;
+}
+
+
