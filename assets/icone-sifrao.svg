@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="54" height="54">
+  <!-- Círculo externo com a linha de proibição -->
+  <circle cx="50" cy="50" r="40" stroke="#FFCC00" stroke-width="8" fill="none" />
+  <line x1="21.7" y1="21.7" x2="78.3" y2="78.3" stroke="#FFCC00" stroke-width="8" />
+  
+  <!-- Ícone do Cifrão ($) centralizado -->
+  <text x="50" y="68" font-family="Arial, sans-serif" font-size="55" font-weight="bold" fill="#FFCC00" text-anchor="middle">$</text>
+</svg>

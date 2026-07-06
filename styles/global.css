@@ -12,6 +12,7 @@
 
 body {
   background-color: black;
+  color: var(--cor-primaria);
 }
 
 .logo {
