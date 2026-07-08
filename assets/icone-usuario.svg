@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="54" height="54">
+  <!-- Círculo externo com a linha de proibição -->
+  <circle cx="50" cy="50" r="40" stroke="#FFCC00" stroke-width="6" fill="none" />
+  <line x1="21.7" y1="21.7" x2="78.3" y2="78.3" stroke="#FFCC00" stroke-width="6" />
+  
+  <!-- Ícone do Usuário (Cabeça e Ombros) -->
+  <!-- Cabeça -->
+  <circle cx="50" cy="40" r="11" stroke="#FFCC00" stroke-width="6" fill="none" />
+  <!-- Ombros / Corpo -->
+  <path d="M 28,70 A 22,22 0 0,1 72,70" stroke="#FFCC00" stroke-width="6" stroke-linecap="round" fill="none" />
+</svg>
