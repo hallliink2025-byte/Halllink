@@ -33,3 +33,11 @@
 .problema__texto span {
   color: var(--cor-segundaria);
 }
+
+.problema hr {
+  width: 10rem;
+  height: 4px;
+  margin-top: 20px;
+  background-color: var(--cor-segundaria);
+  border: none;
+}

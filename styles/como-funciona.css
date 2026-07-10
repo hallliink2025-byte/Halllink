@@ -1,0 +1,80 @@
+.como-funciona {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.como-funciona-lista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.como-funciona-titulo {
+  justify-content: center;
+  font-family: var(--fonte-primaria);
+  font-size: 1.5rem;
+  margin: 16px;
+}
+
+.como-funciona-titulo span {
+  color: var(--cor-segundaria);
+}
+
+.como-funciona-card,
+.como-funciona-destaque {
+    width: 70%;
+}
+
+.como-funciona-card {
+  background-color: #0a0a0a;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  border-radius: 10px;
+  padding: 18px;
+  border: 1px solid #1f1e1e;
+}
+
+.como-funciona-conteudo h3 {
+  font-size: 0.8rem;
+  font-family: var(--fonte-primaria);
+}
+
+.como-funciona-numero {
+  width: 30px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--cor-segundaria);
+  color: #000;
+
+  border-radius: 8px;
+
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.como-funciona-destaque {
+  margin-top: 8px;
+  display: flex;
+  background: #111;
+  border: 1px solid #1f1e1e;
+  border-radius: 16px;
+  padding: 18px;
+  height: 15%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.como-funciona-destaque h3 {
+  font-size: 1rem;
+}
