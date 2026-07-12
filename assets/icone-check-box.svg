@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="54" height="54">
+  <!-- Item 1: Caixa de Seleção Superior -->
+  <rect x="20" y="16" width="20" height="20" rx="4" stroke="#FFCC00" stroke-width="6" fill="none" stroke-linejoin="round" />
+  <!-- Checkmark do Item 1 -->
+  <path d="M 25,26 L 30,31 L 39,20" stroke="#FFCC00" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Linhas de Texto do Item 1 -->
+  <line x1="52" y1="21" x2="84" y2="21" stroke="#FFCC00" stroke-width="5" stroke-linecap="round" />
+  <line x1="52" y1="31" x2="84" y2="31" stroke="#FFCC00" stroke-width="5" stroke-linecap="round" />
+
+  <!-- Item 2: Caixa de Seleção do Meio -->
+  <rect x="20" y="46" width="20" height="20" rx="4" stroke="#FFCC00" stroke-width="6" fill="none" stroke-linejoin="round" />
+  <!-- Checkmark do Item 2 -->
+  <path d="M 25,56 L 30,61 L 39,50" stroke="#FFCC00" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Linhas de Texto do Item 2 -->
+  <line x1="52" y1="51" x2="84" y2="51" stroke="#FFCC00" stroke-width="5" stroke-linecap="round" />
+  <line x1="52" y1="61" x2="84" y2="61" stroke="#FFCC00" stroke-width="5" stroke-linecap="round" />
+
+  <!-- Item 3: Caixa de Seleção Inferior (Vazia) -->
+  <rect x="20" y="76" width="20" height="20" rx="4" stroke="#FFCC00" stroke-width="6" fill="none" stroke-linejoin="round" />
+  <!-- Linhas de Texto do Item 3 -->
+  <line x1="52" y1="81" x2="84" y2="81" stroke="#FFCC00" stroke-width="5" stroke-linecap="round" />
+  <line x1="52" y1="91" x2="74" y2="91" stroke="#FFCC00" stroke-width="5" stroke-linecap="round" />
+</svg>
