@@ -3,7 +3,10 @@
 :root {
   --cor-primaria: #ffffff;
   --cor-segundaria: #ffc107;
-  --cor-terciaria: #ffffff;
+  --cor-terciaria: #000000;
+  --cor-quartearia: #2c2b2b;
+  --cor-quintiaria: #0a0a0a;
+  --cor-sextiaria: #c5c5c5;
 
   --fonte-primaria: "Archivo Black";
   --fonte-segundaria: "Montserrat";

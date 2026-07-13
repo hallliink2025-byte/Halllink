@@ -8,7 +8,7 @@
 }
 
 .hero__titulo {
-  color: var(--cor-terciaria);
+  color: var(--cor-primaria);
   font-size: 2.2rem;
   line-height: 1.2;
   display: flex;
@@ -23,7 +23,7 @@
 }
 
 .linha2 {
-  color: #ffc400;
+  color: var(--cor-segundaria);
 }
 
 .linha3 {
@@ -37,7 +37,7 @@
 }
 
 .hero__texto {
-  color: var(--cor-terciaria);
+  color: var(--cor-primaria);
   width: 80vw;
   font-family: var(--fonte-segundaria);
   display: flex;

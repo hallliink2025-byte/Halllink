@@ -19,7 +19,7 @@
 }
 
 .problema__texto {
-  color: var(--cor-terciaria);
+  color: var(--cor-primaria);
   font-family: var(--fonte-segundaria);
   text-align: left;
   font-size: 1rem;

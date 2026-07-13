@@ -18,7 +18,7 @@
 }
 
 .sobre-texto {
-  color: var(--cor-terciaria);
+  color: var(--cor-primaria);
   font-family: var(--fonte-segundaria);
   text-align: center;
   font-size: 1rem;

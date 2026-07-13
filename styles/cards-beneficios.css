@@ -12,7 +12,7 @@
 
 .beneficio {
   font-family: sans-serif;
-  color: #ffffff;
+  color: var(--cor-primaria);
   background-color: #0a0a0a;
   width: 70%;
   height: 15%;
