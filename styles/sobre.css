@@ -1,0 +1,28 @@
+.sobre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sobre-titulo {
+  justify-content: center;
+  font-family: var(--fonte-primaria);
+  font-size: 1.8rem;
+  margin: 12px;
+}
+
+.sobre-titulo span {
+  color: var(--cor-segundaria);
+}
+
+.sobre-texto {
+  color: var(--cor-terciaria);
+  font-family: var(--fonte-segundaria);
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 12px auto;
+  width: 350px;
+}
