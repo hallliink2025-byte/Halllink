@@ -1,8 +1,8 @@
 .por-que-escolher {
   justify-content: center;
-  max-width: 480px;
   margin: 0 auto;
   text-align: center;
+  padding: 0 20px;
 }
 
 .por-que-escolher-titulo {
@@ -61,7 +61,7 @@
 .por-que-escolher-destaque {
   font-family: var(--font-segundaria);
   display: flex;
-  border: 1px solid var(--cor-segundaria);
+  border: 2px solid var(--cor-segundaria);
   border-radius: 16px;
   padding: 18px;
   height: 15%;

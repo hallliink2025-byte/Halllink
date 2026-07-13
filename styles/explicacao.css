@@ -1,41 +1,33 @@
-.problema {
+.explicacao {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 24px auto;
+  justify-content: center;
+  margin: 0 auto;
   text-align: center;
   width: 100%;
 }
 
-.problema__titulo {
+.explicacao-titulo {
   justify-content: center;
   font-family: var(--fonte-primaria);
-  font-size: 1.7rem;
+  font-size: 30px;
   margin: 16px;
 }
 
-.problema__titulo span {
+.explicacao-titulo span {
   color: var(--cor-segundaria);
 }
 
-.problema__texto {
+.explicacao-texto {
   color: var(--cor-terciaria);
   font-family: var(--fonte-segundaria);
   text-align: left;
   font-size: 1rem;
-  line-height: 1rem;
-  margin: 16px auto;
+  line-height: 1.45;
+  margin: 12px auto;
   width: 350px;
 }
 
-.problema__texto span {
+.explicacao-texto span {
   color: var(--cor-segundaria);
-}
-
-.problema hr {
-  width: 10rem;
-  height: 4px;
-  margin-top: 20px;
-  background-color: var(--cor-segundaria);
-  border: none;
 }
