@@ -15,8 +15,8 @@
 .como-funciona-titulo {
   justify-content: center;
   font-family: var(--fonte-primaria);
-  font-size: 1.5rem;
-  margin: 16px;
+  font-size: 1.8rem;
+  margin-bottom: 16px;
 }
 
 .como-funciona-titulo span {
