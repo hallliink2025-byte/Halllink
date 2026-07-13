@@ -9,7 +9,7 @@
   font-family: var(--fonte-primaria);
   font-size: 1.8rem;
   letter-spacing: 0.5px;
-  color: #eaeaea;
+  color: var(--cor-primaria);
   margin-bottom: 20px;
 }
 
@@ -25,8 +25,8 @@
 }
 
 .perguntas-frequentes-item {
-  background: #0a0a0a;
-  border: 1px solid #2a2a2a;
+  background: var(--cor-quintiaria);
+  border: 1px solid var(--cor-quintiaria);
   border-radius: 8px;
   overflow: hidden;
 }
@@ -52,7 +52,7 @@
   align-items: center;
   justify-content: center;
   background: var(--cor-segundaria);
-  color: #000;
+  color: var(--cor-terciaria);
   border-radius: 50%;
   font-size: 0.75rem;
   font-weight: 700;
@@ -61,7 +61,7 @@
 .perguntas-frequentes-texto {
   font-family: var(--fonte-segundaria);
   flex: 1 1 auto;
-  color: #eaeaea;
+  color: var(--cor-primaria);
   font-size: 1rem;
 }
 

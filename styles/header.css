@@ -36,6 +36,6 @@
 .menu__lista__titulo,
 .menu__lista__item {
   padding: 1em;
-  color: var(--cor-terciaria);
-  background-color: #0a0a0a;
+  color: var(--cor-primaria);
+  background-color: var(--cor-quartearia);
 }
