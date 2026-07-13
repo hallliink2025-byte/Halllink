@@ -1,23 +1,23 @@
-.servicos {
-  padding: 0px 20px;
+.por-que-escolher {
+  justify-content: center;
   max-width: 480px;
   margin: 0 auto;
   text-align: center;
 }
 
-.servicos-titulo {
+.por-que-escolher-titulo {
   font-family: var(--fonte-primaria);
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 600;
-  letter-spacing: 0.5px;
-  margin: 40px 0 30px 0;
+  margin-bottom: 20px;
+  line-height: 40px;
 }
 
-.servicos-titulo span {
+.por-que-escolher span {
   color: var(--cor-segundaria);
 }
 
-.servicos-lista {
+.por-que-escolher-lista {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -26,30 +26,30 @@
   gap: 14px;
 }
 
-.servicos-card {
-  background: #2a2a2a;
-  border: 1px solid #3a3a3a;
+.por-que-escolher-card {
+  background: #020202;
+  border: 1px solid #4e4c4c;
   border-radius: 10px;
   padding: 20px 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   transition:
     transform 0.2s ease,
     border-color 0.2s ease;
   margin-bottom: 16px;
 }
 
-.servicos-icone {
-  width: 52px;
-  height: 52px;
+.por-que-escolher-icone {
+  width: 62px;
+  height: 62px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.servicos-conteudo h3 {
+.por-que-escolher-conteudo h3 {
   color: var(--cor-primaria);
   font-family: var(--fonte-segundaria);
   font-size: 14px;
@@ -58,30 +58,25 @@
   margin: 0;
 }
 
-.servicos-texto {
-  font-family: var(--fonte-terciaria);
-  font-weight: 800;
-  margin: 20px;
-}
-
-.servicos-botao {
+.por-que-escolher-destaque {
+  font-family: var(--font-segundaria);
   display: flex;
+  border: 1px solid var(--cor-segundaria);
+  border-radius: 16px;
+  padding: 18px;
+  height: 15%;
   justify-content: center;
   align-items: center;
-  color: black;
-  text-decoration: none;
-  background-color: var(--cor-segundaria);
-  font-family: var(--fonte-terciaria);
-  gap: 8px;
-  font-size: 1rem;
-  width: 80%;
-  height: 4.2rem;
-  border-radius: 36px;
-  margin: 1rem auto 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.por-que-escolher-destaque h3 {
+  font-size: 1.5rem;
 }
 
 @media (max-width: 380px) {
-  .servicos-lista {
+  .por-que-escolher-lista {
     grid-template-columns: repeat(2, 1fr);
   }
 }
