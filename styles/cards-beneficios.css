@@ -7,13 +7,13 @@
 }
 
 .beneficio__destaque {
-    order: -1;
+  order: -1;
 }
 
 .beneficio {
   font-family: sans-serif;
   color: var(--cor-primaria);
-  background-color: #0a0a0a;
+  background-color: var(--cor-card);
   width: 70%;
   height: 15%;
   display: flex;
@@ -22,7 +22,7 @@
   gap: 18px;
   padding: 18px;
   align-items: center;
-  border: 1px solid #1f1e1e;
+  border: 1px solid var(--cor-borda);
 }
 
 .beneficio__icone {
@@ -45,20 +45,17 @@
 
 .beneficio__conteudo p {
   margin-top: 6px;
-  color: #a9a9a9;
+  color: var(--cor-primaria);
   font-size: 0.7rem;
 }
 
 .beneficio__destaque {
-    border: 1px solid #FFC400;
-    background-color: #020202;
+  border: 1px solid var(--cor-segundaria);
+  background-color: var(--cor-card);
 }
-
 
 .beneficio__destaque strong {
-    display: block;
-    margin-top: 4px;
-    font-weight: 600;
+  display: block;
+  margin-top: 4px;
+  font-weight: 600;
 }
-
-

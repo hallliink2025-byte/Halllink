@@ -25,8 +25,8 @@
 }
 
 .perguntas-frequentes-item {
-  background: var(--cor-quintiaria);
-  border: 1px solid var(--cor-quintiaria);
+  background: var(--cor-terciaria);
+  border: 1px solid var(--cor-borda);
   border-radius: 8px;
   overflow: hidden;
 }
@@ -84,7 +84,7 @@
 
 .perguntas-frequentes-resposta p {
   font-family: var(--fonte-segundaria);
-  color: var(--cor-terciaria);
+  color: var(--cor-primaria);
   font-size: 1rem;
   line-height: 1.5;
   padding: 0 14px 14px 44px;

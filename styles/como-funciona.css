@@ -29,7 +29,7 @@
 }
 
 .como-funciona-card {
-  background-color: #0a0a0a;
+  background-color: var(--cor-card);
   display: grid;
   grid-template-columns: 40px 1fr 50px;
   align-items: center;
@@ -37,7 +37,7 @@
   gap: 1rem;
   border-radius: 10px;
   padding: 18px;
-  border: 1px solid #1f1e1e;
+  border: 1px solid var(--cor-borda);
 }
 
 .como-funciona-conteudo h3 {
@@ -55,7 +55,7 @@
   align-items: center;
 
   background: var(--cor-segundaria);
-  color: #000;
+  color: var(--cor-terciaria);
 
   border-radius: 8px;
 
@@ -82,7 +82,7 @@
   margin-top: 8px;
   display: flex;
   background: #111;
-  border: 1px solid #1f1e1e;
+  border: 1px solid var(--cor-borda);
   border-radius: 16px;
   padding: 18px;
   height: 15%;
@@ -90,7 +90,7 @@
   align-items: center;
   text-align: center;
   background-color: var(--cor-segundaria);
-  color: #000;
+  color: var(--cor-card);
 }
 
 .como-funciona-destaque strong {

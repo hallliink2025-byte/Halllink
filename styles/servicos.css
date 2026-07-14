@@ -27,8 +27,8 @@
 }
 
 .servicos-card {
-  background: var(--cor-quintiaria);
-  border: 1px solid var(--cor-quartearia);
+  background: var(--cor-card);
+  border: 1px solid var(--cor-borda);
   border-radius: 10px;
   padding: 20px 8px;
   display: flex;
