@@ -1,5 +1,5 @@
 .servicos {
-  padding: 0px 20px;
+  padding: auto 20px;
   max-width: 480px;
   margin: 0 auto;
   text-align: center;
@@ -92,5 +92,80 @@
 @media (max-width: 380px) {
   .servicos-lista {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .servicos-titulo {
+    font-size: 2.4rem;
+  }
+
+  .servicos-lista {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 36px;
+  }
+
+  .servicos-card {
+    padding: 36px 20px;
+    gap: 16px;
+    margin-bottom: 0;
+    transition:
+      transform 0.2s ease,
+      border-color 0.2s ease;
+  }
+
+  .servicos-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--cor-segundaria);
+  }
+
+  .servicos-icone {
+    width: 64px;
+    height: 64px;
+  }
+
+  .servicos-conteudo h3 {
+    font-size: 1.05rem;
+  }
+
+  .servicos-botao {
+    width: fit-content;
+    height: auto;
+    padding: 1.1rem 2.2rem;
+    font-size: 1.05rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .servicos {
+    max-width: 1400px;
+  }
+
+  .servicos-lista {
+    gap: 40px;
+  }
+
+  .servicos-card {
+    padding: 40px 22px;
+  }
+
+  .servicos-icone {
+    width: 70px;
+    height: 70px;
+  }
+
+  .servicos-conteudo h3 {
+    font-size: 1.2rem;
+  }
+
+  .servicos-texto {
+    font-size: 2rem;
+    margin: 40px;
+  }
+  .servicos-botao {
+    width: fit-content;
+    height: auto;
+    padding: 1.5rem 2.5rem;
+    font-size: 1.2rem;
   }
 }

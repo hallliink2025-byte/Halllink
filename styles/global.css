@@ -20,3 +20,9 @@ body {
 .logo {
   width: 100px;
 }
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 1.1rem;
+  }
+}

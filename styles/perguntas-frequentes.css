@@ -93,3 +93,53 @@
 .perguntas-frequentes-item.aberto .perguntas-frequentes-resposta {
   max-height: 200px;
 }
+
+@media (min-width: 1024px) {
+  .perguntas-frequentes {
+    max-width: 800px;
+  }
+
+  .perguntas-frequentes-titulo {
+    font-size: 2.2rem;
+    margin-bottom: 32px;
+  }
+
+  .perguntas-frequentes-lista {
+    gap: 16px;
+  }
+
+  .perguntas-frequentes-pergunta {
+    padding: 22px 20px;
+    gap: 14px;
+  }
+
+  .perguntas-frequentes-icone {
+    flex: 0 0 26px;
+    width: 26px;
+    height: 26px;
+    font-size: 0.85rem;
+  }
+
+  .perguntas-frequentes-texto {
+    font-size: 1.1rem;
+  }
+
+  .perguntas-frequentes-resposta p {
+    font-size: 1.05rem;
+    padding: 0 20px 20px 60px;
+  }
+
+  .perguntas-frequentes-item {
+    transition: border-color 0.2s ease;
+  }
+
+  .perguntas-frequentes-item:hover {
+    border-color: var(--cor-segundaria);
+  }
+}
+
+@media (min-width: 1440px) {
+  .perguntas-frequentes {
+    max-width: 880px;
+  }
+}

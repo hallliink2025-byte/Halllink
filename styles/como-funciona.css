@@ -10,13 +10,14 @@
   align-items: center;
   gap: 8px;
   width: 100%;
+  margin: 40px auto;
 }
 
 .como-funciona-titulo {
   justify-content: center;
   font-family: var(--fonte-primaria);
-  font-size: 1.8rem;
-  margin-bottom: 16px;
+  font-size: 2.2rem;
+  margin: 20px auto;
 }
 
 .como-funciona-titulo span {
@@ -78,7 +79,7 @@
 }
 
 .como-funciona-destaque {
-  font-family: var(--font-segundaria);
+  font-family: var(--fonte-segundaria);
   margin-top: 8px;
   display: flex;
   background: #111;
@@ -127,5 +128,115 @@
 
   .como-funciona-conteudo h3 {
     font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .como-funciona {
+    max-width: 1360px;
+    margin: 20px auto;
+  }
+
+  .como-funciona-titulo {
+    font-size: 2.4rem;
+  }
+
+  .como-funciona-lista {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    width: 100%;
+    max-width: 980px;
+  }
+
+  .como-funciona-card {
+    grid-template-columns: 54px 1fr 72px;
+    gap: 1.4rem;
+    padding: 30px;
+    transition:
+      transform 0.2s ease,
+      border-color 0.2s ease;
+  }
+
+  .como-funciona-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--cor-segundaria);
+  }
+
+  .como-funciona-numero {
+    width: 40px;
+    height: 40px;
+    font-size: 1.15rem;
+    border-radius: 10px;
+  }
+
+  .como-funciona-imagem {
+    width: 76px;
+    height: 76px;
+  }
+
+  .como-funciona-conteudo h3 {
+    font-size: 1.3rem;
+  }
+
+  .como-funciona-destaque {
+    grid-column: 1 / -1;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 24px 40px;
+    margin-top: 10px;
+    border: none;
+    box-shadow: 0 12px 30px rgba(255, 193, 7, 0.18);
+  }
+
+  .como-funciona-destaque::before {
+    content: "✓";
+    flex: 0 0 30px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--cor-card);
+    color: var(--cor-segundaria);
+    border-radius: 50%;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .como-funciona-destaque h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 1440px) {
+  .como-funciona {
+    max-width: 1600px;
+  }
+
+  .como-funciona-titulo {
+    font-size: 2.4rem;
+  }
+
+  .como-funciona-lista {
+    max-width: 1200px;
+    gap: 36px;
+  }
+
+  .como-funciona-card {
+    padding: 40px;
+  }
+
+  .como-funciona-imagem {
+    width: 84px;
+    height: 84px;
+  }
+
+  .como-funciona-conteudo h3 {
+    font-size: 1.4rem;
   }
 }
