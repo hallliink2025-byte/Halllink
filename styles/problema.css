@@ -11,7 +11,7 @@
   justify-content: center;
   font-family: var(--fonte-primaria);
   font-size: 1.7rem;
-  margin: 16px;
+  margin: 20px;
 }
 
 .problema__titulo span {
@@ -25,7 +25,7 @@
   font-size: 1rem;
   line-height: 1rem;
   margin: 16px auto;
-  width: 350px;
+  width: 80%;
 }
 
 .problema__texto span {
@@ -38,4 +38,23 @@
   margin-top: 20px;
   background-color: var(--cor-segundaria);
   border: none;
+}
+
+@media (min-width: 1024px) {
+  .problema {
+    max-width: 900px;
+    margin: 0 auto;
+    margin: 20px auto;
+  }
+
+  .problema__titulo {
+    font-size: 2.4rem;
+    max-width: 760px;
+  }
+
+  .problema__texto {
+    width: 900px;
+    font-size: 1.4rem;
+    line-height: 1.65;
+  }
 }

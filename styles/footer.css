@@ -152,7 +152,7 @@
 }
 
 .contato-redes a {
-  font-family: var(--font--terciaria);
+  font-family: var(--fonte-terciaria);
   width: 34px;
   height: 34px;
   display: flex;
@@ -179,5 +179,103 @@
   .contato-marca {
     flex-direction: row;
     text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contato {
+    padding: 110px 40px 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "topo lista"
+      "linha linha"
+      "rodape rodape";
+    column-gap: 80px;
+    row-gap: 0;
+    max-width: 1360px;
+    margin: 0 auto;
+  }
+
+  .contato-topo {
+    grid-area: topo;
+    max-width: 520px;
+    text-align: left;
+    margin: 0;
+  }
+
+  .contato-titulo {
+    font-size: 2rem;
+  }
+
+  .contato-subtitulo {
+    font-size: 1rem;
+  }
+
+  .contato-whatsapp {
+    width: fit-content;
+    padding: 16px 32px;
+    margin: 0;
+  }
+
+  .contato-lista {
+    grid-area: lista;
+    max-width: 480px;
+    margin: 0;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .contato-item {
+    padding: 20px 22px;
+    gap: 16px;
+    transition: border-color 0.2s ease;
+  }
+
+  .contato-item:hover {
+    border-color: var(--cor-segundaria);
+  }
+
+  .contato-icone {
+    flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .contato-item a {
+    font-size: 1rem;
+  }
+
+  .contato-linha {
+    grid-area: linha;
+    margin: 50px 0 24px;
+  }
+
+  .contato-rodape {
+    grid-area: rodape;
+  }
+
+  .contato-logo {
+    width: 72px;
+    height: 72px;
+  }
+
+  .contato-marca-nome {
+    font-size: 1.1rem;
+  }
+
+  .contato-marca-slogan {
+    font-size: 0.85rem;
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .contato {
+    max-width: 1600px;
+    column-gap: 100px;
+    padding: 130px 40px 32px;
   }
 }

@@ -49,7 +49,7 @@
 }
 
 .quanto-custa-card {
-  background: var(--cor-quintiaria);
+  background: var(--cor-card);
   border: 1px solid var(--cor-borda);
   border-radius: 10px;
   padding: 20px 8px;
@@ -90,4 +90,68 @@
   background-color: var(--cor-segundaria);
   border: none;
   margin: 20px auto 20px auto;
+}
+
+@media (min-width: 1024px) {
+  .quanto-custa-titulo {
+    font-size: 2.4rem;
+    margin: 40px auto;
+  }
+
+  .quanto-custa-resposta {
+    font-size: 2.6rem;
+  }
+
+  .quanto-custa-texto {
+    width: 700px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .quanto-custa-lista {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 36px;
+    margin: 20px auto;
+  }
+
+  .quanto-custa-card {
+    padding: 34px 20px;
+    gap: 16px;
+    transition:
+      transform 0.2s ease,
+      border-color 0.2s ease;
+  }
+
+  .quanto-custa-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--cor-segundaria);
+  }
+
+  .quanto-custa-icone {
+    width: 68px;
+    height: 68px;
+  }
+
+  .quanto-custa-conteudo h3 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .quanto-custa-lista {
+    gap: 40px;
+  }
+
+  .quanto-custa-card {
+    padding: 38px 22px;
+  }
+
+  .quanto-custa-icone {
+    width: 74px;
+    height: 74px;
+  }
+
+  .quanto-custa-conteudo h3 {
+    font-size: 1.1rem;
+  }
 }

@@ -4,7 +4,6 @@
   justify-content: center;
   margin: 0 auto;
   text-align: center;
-  width: 100%;
 }
 
 .explicacao-titulo {
@@ -25,9 +24,30 @@
   font-size: 1rem;
   line-height: 1.45;
   margin: 12px auto;
-  width: 350px;
+  width: 80%;
 }
 
 .explicacao-texto span {
   color: var(--cor-segundaria);
+}
+
+@media (min-width: 1024px) {
+  .explicacao {
+    margin: 40px auto;
+    border: 1px solid var(--cor-borda);
+  }
+
+  .explicacao-titulo {
+    font-size: 2.4rem;
+  }
+
+  .explicacao-texto {
+    width: 900px;
+    font-size: 1.4rem;
+    text-align: start;
+  }
+
+  .explicacao-texto span {
+    font-weight: 700;
+  }
 }
