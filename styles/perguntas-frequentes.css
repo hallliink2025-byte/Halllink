@@ -10,7 +10,7 @@
   font-size: 1.8rem;
   letter-spacing: 0.5px;
   color: var(--cor-primaria);
-  margin-bottom: 20px;
+  margin: 3rem auto;
 }
 
 .perguntas-frequentes-titulo span {
@@ -101,7 +101,6 @@
 
   .perguntas-frequentes-titulo {
     font-size: 2.2rem;
-    margin-bottom: 32px;
   }
 
   .perguntas-frequentes-lista {
@@ -139,6 +138,10 @@
 }
 
 @media (min-width: 1440px) {
+  .perguntas-frequentes {
+    padding: 90px 10px;
+  }
+
   .perguntas-frequentes {
     max-width: 880px;
   }

@@ -4,13 +4,14 @@
   justify-content: center;
   margin: 0 auto;
   text-align: center;
+  padding: 20px 0;
 }
 
 .explicacao-titulo {
   justify-content: center;
   font-family: var(--fonte-primaria);
-  font-size: 30px;
-  margin: 16px;
+  font-size: 1.8rem;
+  margin: 3rem auto;
 }
 
 .explicacao-titulo span {
@@ -22,7 +23,7 @@
   font-family: var(--fonte-segundaria);
   text-align: left;
   font-size: 1rem;
-  line-height: 1.45;
+  line-height: 1.65;
   margin: 12px auto;
   width: 80%;
 }
@@ -49,5 +50,11 @@
 
   .explicacao-texto span {
     font-weight: 700;
+  }
+}
+
+@media (min-width: 1440px) {
+  .explicacao {
+    padding: 90px 10px;
   }
 }

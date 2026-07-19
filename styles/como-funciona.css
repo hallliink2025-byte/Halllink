@@ -1,7 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 .como-funciona {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  padding: 20px 0;
 }
 
 .como-funciona-lista {
@@ -9,15 +15,15 @@
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  width: 100%;
-  margin: 40px auto;
+  padding: 20px auto;
+  margin: 0px auto;
 }
 
 .como-funciona-titulo {
   justify-content: center;
   font-family: var(--fonte-primaria);
-  font-size: 2.2rem;
-  margin: 20px auto;
+  font-size: 1.8rem;
+  margin: 3rem auto;
 }
 
 .como-funciona-titulo span {
@@ -26,7 +32,7 @@
 
 .como-funciona-card,
 .como-funciona-destaque {
-  width: 80%;
+  width: 90%;
 }
 
 .como-funciona-card {
@@ -61,7 +67,7 @@
   border-radius: 8px;
 
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .como-funciona-imagem {
@@ -80,18 +86,22 @@
 
 .como-funciona-destaque {
   font-family: var(--fonte-segundaria);
-  margin-top: 8px;
+  margin-top: 1rem;
   display: flex;
-  background: #111;
+  background: var(--cor-segundaria);
   border: 1px solid var(--cor-borda);
   border-radius: 16px;
   padding: 18px;
-  height: 15%;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-color: var(--cor-segundaria);
   color: var(--cor-card);
+}
+
+.como-funciona-destaque-texto {
+  font-size: 1.2rem;
+  font-family: var(--fonte-terciaria);
 }
 
 .como-funciona-destaque strong {
@@ -128,6 +138,20 @@
 
   .como-funciona-conteudo h3 {
     font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .como-funciona-lista {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    width: 100%;
+    max-width: 900px;
+  }
+
+  .como-funciona-card {
+    width: 100%;
   }
 }
 

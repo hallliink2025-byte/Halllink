@@ -21,6 +21,13 @@ body {
   width: 100px;
 }
 
+hr {
+  width: 15rem;
+  height: 4px;
+  background-color: var(--cor-segundaria);
+  border: none;
+}
+
 @media (min-width: 1024px) {
   body {
     font-size: 1.1rem;

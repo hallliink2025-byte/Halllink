@@ -4,13 +4,14 @@
   justify-content: center;
   margin: 0 auto;
   text-align: center;
+  padding: 20px 0;
 }
 
 .sobre-titulo {
   justify-content: center;
   font-family: var(--fonte-primaria);
   font-size: 1.8rem;
-  margin: 12px;
+  margin: 3rem auto;
 }
 
 .sobre-titulo span {
@@ -40,5 +41,11 @@
     width: 800px;
     font-size: 1.4rem;
     line-height: 1.65;
+  }
+}
+
+@media (min-width: 1440px) {
+  .sobre {
+    padding: 90px 10px;
   }
 }
