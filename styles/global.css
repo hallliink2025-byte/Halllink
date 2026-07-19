@@ -28,8 +28,14 @@ hr {
   border: none;
 }
 
-@media (min-width: 1024px) {
-  body {
-    font-size: 1.1rem;
-  }
+html {
+  scroll-behavior: smooth;
+}
+
+#como-funciona,
+#servicos,
+#por-que-escolher,
+#perguntas-frequentes,
+#contato {
+  scroll-margin-top: 100px;
 }
