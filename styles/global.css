@@ -21,6 +21,10 @@ body {
   width: 100px;
 }
 
+.logo--desktop {
+  display: none;
+}
+
 hr {
   width: 15rem;
   height: 4px;

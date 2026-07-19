@@ -58,8 +58,14 @@
     border-bottom: 1px solid var(--cor-borda);
   }
 
-  .logo {
-    width: 44px;
+  .logo--mobile {
+    display: none;
+  }
+
+  .logo--desktop {
+    display: block;
+    width: 170px;
+    height: auto;
   }
 
   .menu {

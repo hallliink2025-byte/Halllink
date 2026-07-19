@@ -1,0 +1,122 @@
+.modal-whatsapp {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modal-whatsapp.aberto {
+  display: flex;
+}
+
+.modal-whatsapp__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(2px);
+}
+
+.modal-whatsapp__caixa {
+  position: relative;
+  background: var(--cor-card);
+  border: 1px solid var(--cor-borda);
+  border-radius: 16px;
+  padding: 32px 24px;
+  width: 100%;
+  max-width: 340px;
+  text-align: center;
+}
+
+.modal-whatsapp__fechar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  color: var(--cor-primaria);
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.modal-whatsapp__caixa h3 {
+  font-family: var(--fonte-terciaria);
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--cor-primaria);
+  margin: 8px 0 22px;
+}
+
+.modal-whatsapp__opcoes {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.modal-whatsapp__opcao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: var(--cor-segundaria);
+  color: var(--cor-terciaria);
+  font-weight: 700;
+  font-family: var(--fonte-segundaria);
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 10px;
+  transition:
+    transform 0.15s ease,
+    opacity 0.15s ease;
+}
+
+.modal-whatsapp__opcao:active {
+  transform: scale(0.97);
+  opacity: 0.9;
+}
+
+.modal-whatsapp__opcao img {
+  width: 20px;
+  height: 20px;
+}
+
+@media (min-width: 1024px) {
+  .modal-whatsapp__caixa {
+    max-width: 460px;
+    padding: 44px 36px;
+  }
+
+  .modal-whatsapp__caixa h3 {
+    font-size: 1.3rem;
+    margin-bottom: 28px;
+  }
+
+  .modal-whatsapp__opcoes {
+    flex-direction: row;
+    gap: 18px;
+  }
+
+  .modal-whatsapp__opcao {
+    flex: 1;
+    flex-direction: column;
+    padding: 28px 16px;
+    border-radius: 14px;
+  }
+
+  .modal-whatsapp__opcao:hover {
+    transform: translateY(-3px);
+  }
+
+  .modal-whatsapp__opcao img {
+    width: 28px;
+    height: 28px;
+  }
+}
