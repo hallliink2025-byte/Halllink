@@ -10,7 +10,7 @@
 
 .hero__titulo {
   color: var(--cor-primaria);
-  font-size: clamp(1.4rem, 6vw, 2.2rem);
+  font-size: clamp(1.8rem, 6vw, 2.2rem);
   line-height: 1.2;
   display: flex;
   flex-direction: column;
@@ -43,7 +43,7 @@
   font-family: var(--fonte-segundaria);
   display: flex;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.45;
   margin: 0;
 }

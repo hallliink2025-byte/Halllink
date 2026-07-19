@@ -2,14 +2,14 @@
   justify-content: center;
   margin: 0 auto;
   text-align: center;
-  padding: 0 20px;
+  padding: 20px 0;
 }
 
 .por-que-escolher-titulo {
   font-family: var(--fonte-primaria);
-  font-size: 30px;
+  font-size: 1.8rem;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin: 3rem auto;
   line-height: 40px;
 }
 
@@ -128,6 +128,10 @@
 }
 
 @media (min-width: 1440px) {
+  .por-que-escolher {
+    padding: 90px 10px;
+  }
+
   .por-que-escolher-lista {
     gap: 40px;
   }

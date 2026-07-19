@@ -1,17 +1,21 @@
 .problema {
   display: flex;
   flex-direction: column;
+  padding: 20px 0;
+}
+
+.problema__conteudo {
+  justify-content: center;
   align-items: center;
-  margin: 24px auto;
-  text-align: center;
-  width: 100%;
 }
 
 .problema__titulo {
   justify-content: center;
+  text-align: center;
   font-family: var(--fonte-primaria);
   font-size: 1.7rem;
-  margin: 20px;
+  margin: 3rem auto;
+  padding: 0 20px;
 }
 
 .problema__titulo span {
@@ -32,19 +36,10 @@
   color: var(--cor-segundaria);
 }
 
-.problema hr {
-  width: 10rem;
-  height: 4px;
-  margin-top: 20px;
-  background-color: var(--cor-segundaria);
-  border: none;
-}
-
 @media (min-width: 1024px) {
   .problema {
     max-width: 900px;
     margin: 0 auto;
-    margin: 20px auto;
   }
 
   .problema__titulo {
@@ -56,5 +51,10 @@
     width: 900px;
     font-size: 1.4rem;
     line-height: 1.65;
+  }
+}
+@media (min-width: 1440px) {
+  .problema {
+    padding: 80px 10px;
   }
 }

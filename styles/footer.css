@@ -13,7 +13,7 @@
 
 .contato-titulo {
   font-family: var(--fonte-primaria);
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   line-height: 1.35;
   margin-bottom: 10px;
 }
@@ -32,22 +32,16 @@
 
 .contato-whatsapp {
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 10px;
-  background: var(--cor-segundaria);
+  align-items: center;
   color: var(--cor-terciaria);
-  font-weight: 700;
-  font-size: 1rem;
   text-decoration: none;
-  padding: 14px 20px;
-  border-radius: 10px;
-  width: 100%;
-  max-width: 320px;
-  margin: 0 auto;
-  transition:
-    transform 0.15s ease,
-    opacity 0.15s ease;
+  background-color: var(--cor-segundaria);
+  font-family: var(--fonte-terciaria);
+  gap: 8px;
+  font-size: 1rem;
+  height: 3rem;
+  border-radius: 50px;
 }
 
 .contato-whatsapp:active {
@@ -100,12 +94,6 @@
   text-decoration: none;
   font-family: var(--fonte-segundaria);
   font-size: 0.85rem;
-}
-
-.contato-linha {
-  border: none;
-  border-top: 1px solid var(--cor-borda);
-  margin: 28px 0 20px;
 }
 
 .contato-rodape {
@@ -277,5 +265,11 @@
     max-width: 1600px;
     column-gap: 100px;
     padding: 130px 40px 32px;
+  }
+}
+
+@media (max-width: 425px) {
+  .contato-linha {
+    margin-top: 40px;
   }
 }
