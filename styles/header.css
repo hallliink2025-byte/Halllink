@@ -5,41 +5,6 @@
   padding: 1rem;
 }
 
-.menu {
-  position: relative;
-}
-
-.menu__botao {
-  display: none;
-}
-
-.menu__icone span {
-  width: 1.5rem;
-  height: 1.5rem;
-  display: block;
-  background: url(../assets/menu.png) no-repeat;
-}
-
-.menu__lista {
-  display: none;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  padding: 10px;
-  width: 50vw;
-}
-
-.menu__botao:checked ~ .menu__lista {
-  display: block;
-}
-
-.menu__lista__titulo,
-.menu__lista__item {
-  padding: 1em;
-  color: var(--cor-primaria);
-  background-color: var(--cor-card);
-}
-
 .cabecalho__nav,
 .cabecalho__botao {
   display: none;
