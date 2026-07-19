@@ -15,7 +15,12 @@
   </head>
   <body>
     <header class="cabecalho">
-      <img src="favicon.jpg" class="logo" alt="Logo" />
+      <img src="favicon.jpg" class="logo logo--mobile" alt="Logo HallLink" />
+      <img
+        src="assets/logo-desktop.jpg"
+        class="logo logo--desktop"
+        alt="HallLink"
+      />
 
       <div class="menu">
         <input type="checkbox" id="menu" class="menu__botao" />
@@ -34,25 +39,37 @@
           </li>
         </ul>
       </div>
-       <ul class="cabecalho__nav">
+      <ul class="cabecalho__nav">
         <li class="cabecalho__nav__item">
-          <a class="cabecalho__nav__link" href="#como-funciona">Como funciona</a>
+          <a class="cabecalho__nav__link" href="#como-funciona"
+            >Como funciona</a
+          >
         </li>
         <li class="cabecalho__nav__item">
           <a class="cabecalho__nav__link" href="#servicos">Serviços</a>
         </li>
         <li class="cabecalho__nav__item">
-          <a class="cabecalho__nav__link" href="#por-que-escolher">Por que a HallLink</a>
+          <a class="cabecalho__nav__link" href="#por-que-escolher"
+            >Por que a HallLink</a
+          >
         </li>
         <li class="cabecalho__nav__item">
-          <a class="cabecalho__nav__link" href="#perguntas-frequentes">Perguntas frequentes</a>
+          <a class="cabecalho__nav__link" href="#perguntas-frequentes"
+            >Perguntas frequentes</a
+          >
         </li>
         <li class="cabecalho__nav__item">
           <a class="cabecalho__nav__link" href="#contato">Contato</a>
         </li>
       </ul>
 
-      <a class="cabecalho__botao" href="https://wa.me/5511970756863" target="_blank" rel="noopener" data-whatsapp-modal>
+      <a
+        class="cabecalho__botao"
+        href="https://wa.me/5511970756863"
+        target="_blank"
+        rel="noopener"
+        data-whatsapp-modal
+      >
         <img src="assets/whatsapp.png" alt="" />
         Solicitar orçamento
       </a>
@@ -70,7 +87,12 @@
           demandas de manutenção e ajuda o síndico a ganhar mais agilidade e
           praticidade no dia a dia.
         </p>
-        <a class="hero__botao" href="#"
+        <a
+          class="hero__botao"
+          href="https://wa.me/5511970756863"
+          target="_blank"
+          rel="noopener"
+          data-whatsapp-modal
           ><img
             class="hero__icone__botao"
             src="assets/whatsapp.png"
@@ -273,7 +295,12 @@
 
       <p class="servicos-texto">Serviços Técnicos e Laudos</p>
 
-      <a class="servicos-botao" href="#"
+      <a
+        class="servicos-botao"
+        href="https://wa.me/5511970756863"
+        target="_blank"
+        rel="noopener"
+        data-whatsapp-modal
         ><img
           class="hero__icone__botao"
           src="assets/whatsapp.png"
@@ -536,7 +563,7 @@
 
     <script src="perguntas-frequentes.js"></script>
 
-    <footer class="contato" id="contato"> 
+    <footer class="contato" id="contato">
       <div class="contato-topo">
         <h2 class="contato-titulo">
           Precisando de ajuda com alguma <span>demanda</span> no seu condomínio?
@@ -546,7 +573,13 @@
           encontrar a melhor solução, sem custo para o condomínio.
         </p>
 
-        <a class="contato-whatsapp" href="#">
+        <a
+          class="contato-whatsapp"
+          href="https://wa.me/5511970756863"
+          target="_blank"
+          rel="noopener"
+          data-whatsapp-modal
+        >
           <img
             src="assets/whatsapp.png"
             alt=""
@@ -593,5 +626,50 @@
         </div>
       </div>
     </footer>
+    <div class="modal-whatsapp" id="modal-whatsapp" aria-hidden="true">
+      <div class="modal-whatsapp__overlay" data-modal-fechar></div>
+      <div
+        class="modal-whatsapp__caixa"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-whatsapp-titulo"
+      >
+        <button
+          type="button"
+          class="modal-whatsapp__fechar"
+          data-modal-fechar
+          aria-label="Fechar"
+        >
+          &times;
+        </button>
+
+        <h3 id="modal-whatsapp-titulo">
+          Escolha um número para falar com a HallLink
+        </h3>
+
+        <div class="modal-whatsapp__opcoes">
+          <a
+            class="modal-whatsapp__opcao"
+            href="https://wa.me/5511970756863"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="assets/whatsapp.png" alt="" />
+            <span>(11) 97075-6863</span>
+          </a>
+          <a
+            class="modal-whatsapp__opcao"
+            href="https://wa.me/5511983107957"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="assets/whatsapp.png" alt="" />
+            <span>(11) 98310-7957</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="modal-whatsapp.js"></script>
   </body>
 </html>
