@@ -5,7 +5,6 @@
 .como-funciona {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding: 20px 0;
 }
@@ -15,8 +14,7 @@
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  padding: 20px auto;
-  margin: 0px auto;
+  width: 100%;
 }
 
 .como-funciona-titulo {
@@ -32,7 +30,7 @@
 
 .como-funciona-card,
 .como-funciona-destaque {
-  width: 90%;
+  width: 80%;
 }
 
 .como-funciona-card {
@@ -86,12 +84,13 @@
 
 .como-funciona-destaque {
   font-family: var(--fonte-segundaria);
-  margin-top: 1rem;
+  margin-top: 8px;
   display: flex;
   background: var(--cor-segundaria);
   border: 1px solid var(--cor-borda);
   border-radius: 16px;
   padding: 18px;
+  height: 15%;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -158,7 +157,8 @@
 @media (min-width: 1024px) {
   .como-funciona {
     max-width: 1360px;
-    margin: 20px auto;
+    margin: 0 auto;
+    padding: 64px 40px;
   }
 
   .como-funciona-titulo {
@@ -171,6 +171,11 @@
     gap: 40px;
     width: 100%;
     max-width: 980px;
+  }
+
+  .como-funciona-card,
+  .como-funciona-destaque {
+    width: 100%;
   }
 
   .como-funciona-card {
@@ -240,19 +245,16 @@
 @media (min-width: 1440px) {
   .como-funciona {
     max-width: 1600px;
-  }
-
-  .como-funciona-titulo {
-    font-size: 2.4rem;
+    padding: 84px 40px;
   }
 
   .como-funciona-lista {
-    max-width: 1200px;
+    max-width: 1080px;
     gap: 36px;
   }
 
   .como-funciona-card {
-    padding: 40px;
+    padding: 34px;
   }
 
   .como-funciona-imagem {

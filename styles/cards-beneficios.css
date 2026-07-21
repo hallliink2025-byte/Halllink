@@ -22,7 +22,7 @@
   font-family: sans-serif;
   color: var(--cor-primaria);
   background-color: var(--cor-card);
-  width: 90%;
+  width: 70%;
   height: 15%;
   display: flex;
   text-align: center;
@@ -83,14 +83,15 @@
 
 @media (min-width: 1024px) {
   .beneficios {
-    max-width: 1000px;
+    max-width: 1360px;
     margin: 0 auto;
+    padding: 60px 40px;
   }
 
   .beneficios__lista {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 36px;
   }
 
   .beneficio__destaque {
@@ -103,10 +104,10 @@
     flex-direction: column;
     text-align: center;
     gap: 16px;
+    padding: 34px 24px;
     transition:
       transform 0.2s ease,
       border-color 0.2s ease;
-    padding: 20px;
   }
 
   .beneficio:hover {
@@ -130,12 +131,11 @@
 
 @media (min-width: 1440px) {
   .beneficios {
-    max-width: 1440px;
-    padding: 80px 10px;
+    max-width: 1600px;
   }
 
   .beneficios__lista {
-    gap: 10px;
+    gap: 40px;
   }
 
   .beneficio {

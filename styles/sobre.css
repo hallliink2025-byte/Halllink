@@ -11,7 +11,7 @@
   justify-content: center;
   font-family: var(--fonte-primaria);
   font-size: 1.8rem;
-  margin: 3rem auto;
+  margin: 2rem auto;
 }
 
 .sobre-titulo span {
@@ -25,12 +25,14 @@
   font-size: 1rem;
   line-height: 1.5;
   margin: 12px auto;
-  width: 80%;
+  width: 350px;
 }
 
 @media (min-width: 1024px) {
   .sobre {
-    margin: 20px auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
   }
 
   .sobre-titulo {
@@ -38,7 +40,7 @@
   }
 
   .sobre-texto {
-    width: 800px;
+    width: 700px;
     font-size: 1.4rem;
     line-height: 1.65;
   }
@@ -46,6 +48,7 @@
 
 @media (min-width: 1440px) {
   .sobre {
+    max-width: 1400px;
     padding: 90px 10px;
   }
 }
