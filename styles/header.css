@@ -5,6 +5,170 @@
   padding: 1rem;
 }
 
+.menu {
+  position: relative;
+}
+
+.menu__botao {
+  display: none;
+}
+
+.menu__icone {
+  position: relative;
+  z-index: 60;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.menu__icone span,
+.menu__icone span::before,
+.menu__icone span::after {
+  width: 22px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: var(--cor-primaria);
+  transition:
+    transform 0.25s ease,
+    opacity 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.menu__icone span {
+  position: relative;
+  display: block;
+}
+
+.menu__icone span::before,
+.menu__icone span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+
+.menu__icone span::before {
+  top: -7px;
+}
+
+.menu__icone span::after {
+  top: 7px;
+}
+
+.menu__botao:checked ~ .menu__icone span {
+  background-color: transparent;
+}
+
+.menu__botao:checked ~ .menu__icone span::before {
+  top: 0;
+  transform: rotate(45deg);
+  background-color: var(--cor-segundaria);
+}
+
+.menu__botao:checked ~ .menu__icone span::after {
+  top: 0;
+  transform: rotate(-45deg);
+  background-color: var(--cor-segundaria);
+}
+
+.menu__fundo {
+  position: fixed;
+  inset: 0;
+  z-index: 55;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(2px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.menu__botao:checked ~ .menu__fundo {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.menu__painel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 58;
+  height: 100vh;
+  width: min(80vw, 320px);
+  background: var(--cor-card);
+  border-left: 1px solid var(--cor-borda);
+  padding: 100px 28px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  overflow-y: auto;
+}
+
+.menu__botao:checked ~ .menu__painel {
+  transform: translateX(0);
+}
+
+.menu__lista {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__lista__item {
+  border-bottom: 1px solid var(--cor-borda);
+}
+
+.menu__lista__link {
+  display: block;
+  padding: 16px 4px;
+  color: var(--cor-primaria);
+  text-decoration: none;
+  font-family: var(--fonte-segundaria);
+  font-size: 1.05rem;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.menu__lista__link:active,
+.menu__lista__link:hover {
+  color: var(--cor-segundaria);
+}
+
+.menu__botao-whatsapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: auto;
+  background: var(--cor-segundaria);
+  color: var(--cor-terciaria);
+  font-weight: 700;
+  font-family: var(--fonte-segundaria);
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 10px;
+  transition:
+    transform 0.15s ease,
+    opacity 0.15s ease;
+}
+
+.menu__botao-whatsapp:active {
+  transform: scale(0.97);
+  opacity: 0.9;
+}
+
+.menu__botao-whatsapp img {
+  width: 20px;
+  height: 20px;
+}
+
+body:has(.menu__botao:checked) {
+  overflow: hidden;
+}
+
 .cabecalho__nav,
 .cabecalho__botao {
   display: none;
@@ -81,7 +245,7 @@
 
   .cabecalho__botao:hover {
     transform: translateY(-1px);
-    box-shadow: 0 8px 22px rgba(255, 193, 7, 0.25);
+    box-shadow: var(--cor-segundaria);
   }
 
   .cabecalho__botao img {
