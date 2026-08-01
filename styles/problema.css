@@ -1,7 +1,7 @@
 .problema {
   display: flex;
   flex-direction: column;
-  padding: 20px 0;
+  padding: 20px 20px;
 }
 
 .problema__conteudo {
@@ -29,16 +29,22 @@
   font-size: 1rem;
   line-height: 1rem;
   margin: 16px auto;
-  width: 80%;
+  width: 300px;
 }
 
 .problema__texto span {
   color: var(--cor-segundaria);
 }
 
+@media (min-width: 768px) {
+  .problema__texto {
+    width: 600px;
+  }
+}
+
 @media (min-width: 1024px) {
   .problema {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
   }
 

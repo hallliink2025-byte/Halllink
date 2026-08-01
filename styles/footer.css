@@ -262,7 +262,6 @@
 
 @media (min-width: 1440px) {
   .contato {
-    max-width: 1600px;
     column-gap: 100px;
     padding: 130px 40px 32px;
   }

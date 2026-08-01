@@ -1,17 +1,21 @@
 .explicacao {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 0 auto;
-  text-align: center;
   padding: 20px 0;
+}
+
+.explicacao-conteudo {
+  justify-content: center;
+  align-items: center;
 }
 
 .explicacao-titulo {
   justify-content: center;
+  text-align: center;
   font-family: var(--fonte-primaria);
   font-size: 1.8rem;
   margin: 3rem auto 1rem auto;
+  padding: 0 20px;
 }
 
 .explicacao-titulo span {
@@ -32,23 +36,26 @@
   color: var(--cor-segundaria);
 }
 
+@media (min-width: 768px) {
+  .explicacao-texto {
+    width: 600px;
+  }
+}
+
 @media (min-width: 1024px) {
   .explicacao {
     max-width: 1200px;
-    border: 1px solid var(--cor-borda);
-    border-radius: 20px;
-    padding: 56px;
+    margin: 0 auto;
   }
 
   .explicacao-titulo {
     font-size: 2.4rem;
+    max-width: 760px;
   }
 
   .explicacao-texto {
     width: 900px;
     font-size: 1.4rem;
-    text-align: start;
-    width: 350px;
   }
 
   .explicacao-texto span {
@@ -58,6 +65,10 @@
 
 @media (min-width: 1440px) {
   .explicacao {
-    padding: 90px 10px;
+    padding: 80px 10px;
+  }
+
+  .explicacao-texto {
+    text-align: start;
   }
 }

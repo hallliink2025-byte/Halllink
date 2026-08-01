@@ -86,6 +86,17 @@
   }
 }
 
+@media (max-width: 768px) {
+  .servicos {
+    max-width: 800px;
+    padding: 30px 20px;
+  }
+
+  .servicos-card {
+    padding: 40px 8px;
+  }
+}
+
 @media (min-width: 1024px) {
   .servicos {
     max-width: 1200px;
