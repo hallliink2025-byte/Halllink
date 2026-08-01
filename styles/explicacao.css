@@ -21,11 +21,11 @@
 .explicacao-texto {
   color: var(--cor-primaria);
   font-family: var(--fonte-segundaria);
-  text-align: left;
+  text-align: center;
   font-size: 1rem;
   line-height: 1.45;
   margin: 12px auto;
-  width: 350px;
+  width: 320px;
 }
 
 .explicacao-texto span {
@@ -48,6 +48,7 @@
     width: 900px;
     font-size: 1.4rem;
     text-align: start;
+    width: 350px;
   }
 
   .explicacao-texto span {
