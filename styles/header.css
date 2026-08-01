@@ -245,7 +245,7 @@ body:has(.menu__botao:checked) {
 
   .cabecalho__botao:hover {
     transform: translateY(-1px);
-    box-shadow: var(--cor-segundaria);
+    box-shadow: 0 8px 22px rgba(255, 193, 7, 0.25);
   }
 
   .cabecalho__botao img {
