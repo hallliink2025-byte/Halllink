@@ -85,9 +85,9 @@
     padding: 7rem 40px 6.5rem;
     overflow-x: visible;
     background: radial-gradient(
-      1000px 480px at 82% 6%,
-      rgba(255, 193, 7, 0.08),
-      transparent 60%
+      farthest-corner at 85% 0%,
+      rgba(255, 193, 7, 0.06),
+      transparent 70%
     );
   }
 
