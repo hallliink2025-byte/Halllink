@@ -64,7 +64,7 @@
   gap: 12px;
 }
 
-.contato-item {
+.contato-item__link {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -72,6 +72,10 @@
   border: 1px solid var(--cor-borda);
   border-radius: 10px;
   padding: 12px 14px;
+  color: var(--cor-primaria);
+  text-decoration: none;
+  font-family: var(--fonte-segundaria);
+  font-size: 0.85rem;
 }
 
 .contato-icone {
@@ -155,13 +159,13 @@
   height: 16px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .contato-rodape {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     text-align: left;
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 800px;
+    margin: 20px auto 0 auto;
   }
 
   .contato-marca {
@@ -216,15 +220,16 @@
     gap: 16px;
   }
 
-  .contato-item {
+  .contato-item__link {
     padding: 20px 22px;
     gap: 16px;
     transition: border-color 0.2s ease;
   }
 
-  .contato-item:hover {
+  .contato-item__link:hover {
     border-color: var(--cor-segundaria);
   }
+
 
   .contato-icone {
     flex: 0 0 40px;
@@ -232,7 +237,7 @@
     height: 40px;
   }
 
-  .contato-item a {
+  .contato-item__link {
     font-size: 1rem;
   }
 
