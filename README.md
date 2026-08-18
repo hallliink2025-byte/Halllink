@@ -183,10 +183,6 @@ Essas funcionalidades ajudaram a praticar a manipulação do DOM e o uso de even
 
 ---
 
-## 📚 O que aprendi
-
-Este projeto foi importante para consolidar conhecimentos fundamentais de desenvolvimento Front-end.
-
 ### HTML
 
 * Estrutura semântica;
