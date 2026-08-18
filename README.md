@@ -1,11 +1,12 @@
 # 🚀 HallLink
 
 <p align="center">
-  <strong>Landing Page institucional desenvolvida com foco em experiência do usuário, responsividade e conversão.</strong>
+  <strong>Landing page institucional desenvolvida de ponta a ponta, com foco em experiência do usuário, responsividade e conversão.</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/KaweM/Halllink">📂 Repositório</a>
+</p>
 
 ## 📸 Preview
 
@@ -19,17 +20,54 @@
 
 ## 📋 Sobre o projeto
 
-O **HallLink** é uma landing page institucional desenvolvida para apresentar os serviços de uma empresa e facilitar a geração de novos contatos.
+O **HallLink** é uma landing page institucional desenvolvida para apresentar os serviços da empresa e facilitar a geração de novos contatos.
 
-O projeto foi construído utilizando **HTML5, CSS3 e JavaScript**, priorizando uma interface responsiva, organização visual e uma navegação simples.
+O projeto foi desenvolvido utilizando **HTML5, CSS3 e JavaScript**, priorizando uma interface responsiva, organização visual e uma navegação simples e intuitiva.
 
-A página possui diferentes seções para apresentar a empresa, seus serviços e informações relevantes ao visitante, além de recursos interativos desenvolvidos em JavaScript.
+A página conta com diferentes seções para apresentar a empresa, seus serviços e informações relevantes ao visitante, além de recursos interativos desenvolvidos em JavaScript.
+
+---
+
+## 👨‍💻 Minha atuação no projeto
+
+Atuei como **único desenvolvedor responsável pelo projeto**, participando de todas as etapas do desenvolvimento da landing page, desde a concepção visual até a implementação e publicação da aplicação.
+
+### 🎨 Design e planejamento
+
+* Criação do design da landing page;
+* Definição da identidade visual;
+* Organização da hierarquia visual e das seções;
+* Planejamento da experiência de navegação;
+* Definição de cores, tipografia, espaçamentos e componentes;
+* Adaptação do design para diferentes tamanhos de tela.
+
+### 💻 Desenvolvimento Front-end
+
+* Estruturação da página utilizando HTML5;
+* Desenvolvimento da interface utilizando CSS3;
+* Implementação da responsividade;
+* Desenvolvimento das interações utilizando JavaScript;
+* Implementação do menu mobile;
+* Desenvolvimento do modal de contato;
+* Implementação da seção de perguntas frequentes (FAQ);
+* Organização dos arquivos e estilos do projeto.
+
+### 🔧 Versionamento e publicação
+
+* Controle de versão utilizando Git;
+* Organização do desenvolvimento através de commits e branches;
+* Gerenciamento do código através do GitHub;
+* Deploy e publicação da aplicação utilizando Vercel.
+
+### 🚀 Responsabilidade pelo projeto
+
+Fui responsável pelo projeto **de ponta a ponta**, desde a **concepção do design até o desenvolvimento, versionamento e deploy da aplicação**, trabalhando de forma independente em todas as etapas necessárias para colocar a landing page em produção.
 
 ---
 
 ## 🎯 Objetivo
 
-O principal objetivo do projeto foi desenvolver uma **landing page moderna e responsiva**, capaz de:
+O principal objetivo do projeto foi desenvolver uma **landing page moderna, responsiva e orientada à conversão**, capaz de:
 
 * Apresentar os serviços de forma objetiva;
 * Facilitar a navegação do usuário;
@@ -93,23 +131,23 @@ O principal objetivo do projeto foi desenvolver uma **landing page moderna e res
 
 ### 📱 Menu responsivo
 
-A navegação foi adaptada para dispositivos móveis, permitindo que o usuário acesse as diferentes áreas da página de maneira simples.
+Navegação adaptada para dispositivos móveis, permitindo que o usuário acesse as diferentes áreas da página de maneira simples.
 
 ### 💬 Modal de contato
 
-Foi desenvolvido um modal utilizando JavaScript para facilitar o direcionamento do usuário ao contato através do WhatsApp.
+Modal desenvolvido com JavaScript para facilitar o direcionamento do usuário ao contato através do WhatsApp.
 
 ### ❓ FAQ interativo
 
-A seção de perguntas frequentes possui interação através de JavaScript, permitindo expandir e ocultar as respostas.
+Seção de perguntas frequentes com interação em JavaScript para expandir e ocultar respostas.
 
 ### 📐 Layout responsivo
 
-A página foi desenvolvida considerando diferentes tamanhos de viewport, utilizando Media Queries para adaptar os componentes.
+Interface adaptada para diferentes tamanhos de viewport utilizando técnicas de CSS responsivo.
 
 ### 🎯 Call to Action
 
-A interface utiliza chamadas para ação com o objetivo de direcionar o visitante para o contato comercial.
+Chamadas para ação posicionadas estrategicamente para direcionar o visitante ao contato comercial.
 
 ---
 
@@ -134,11 +172,9 @@ Halllink/
 └── .gitignore
 ```
 
-A separação dos arquivos permite manter a estrutura HTML, os estilos e a lógica JavaScript organizados de forma independente.
-
 ---
 
-## 💻 Responsividade
+## 📱 Responsividade
 
 Um dos principais pontos trabalhados durante o desenvolvimento foi a adaptação da interface para diferentes dispositivos.
 
@@ -152,79 +188,37 @@ Foram utilizados **Media Queries, Flexbox, Grid e unidades relativas** para cont
 * Seções da landing page;
 * Comportamento em telas menores.
 
-O objetivo foi evitar que a interface dependesse de uma única resolução.
-
 ---
 
 ## 🧠 Principais desafios
 
-Durante o desenvolvimento, alguns dos principais desafios foram relacionados à construção de uma interface responsiva e à organização dos componentes.
-
 ### 1. Responsividade
 
-Foi necessário ajustar o comportamento de diferentes elementos conforme o tamanho da tela.
+Foi necessário ajustar o comportamento de diferentes elementos conforme o tamanho da tela, trabalhando com diferentes breakpoints e revisando dimensões, espaçamentos e organização dos componentes.
 
-Isso envolveu trabalhar com diferentes breakpoints e revisar dimensões, espaçamentos e organização dos componentes.
-
-### 2. Organização dos componentes
+### 2. Organização da interface
 
 A página possui diversas seções e elementos visuais. A organização dos estilos foi importante para evitar conflitos e facilitar futuras alterações.
 
 ### 3. Interações com JavaScript
 
-Além da estrutura visual, o projeto exigiu a implementação de funcionalidades utilizando JavaScript, como:
+O projeto exigiu a implementação de funcionalidades utilizando JavaScript, como:
 
 * Menu mobile;
-* Modal;
+* Modal de contato;
 * FAQ;
 * Eventos de interação.
-
-Essas funcionalidades ajudaram a praticar a manipulação do DOM e o uso de eventos.
-
----
-
-### HTML
-
-* Estrutura semântica;
-* Organização de páginas;
-* Hierarquia de conteúdo.
-
-### CSS
-
-* Flexbox;
-* CSS Grid;
-* Media Queries;
-* Responsividade;
-* `rem`, `%`, `vw` e outras unidades;
-* Organização de layouts;
-* Ajuste de componentes para diferentes resoluções.
-
-### JavaScript
-
-* Funções;
-* Eventos;
-* Manipulação do DOM;
-* Seleção de elementos;
-* Controle de classes;
-* Criação de interações.
-
-### Git
-
-Durante o desenvolvimento também foram utilizados conceitos de versionamento, incluindo:
-
-* Commits;
-* Branches;
-* Organização das alterações;
-* Correção de problemas através de branches específicas.
 
 ---
 
 ## 🔄 Processo de desenvolvimento
 
-O projeto foi desenvolvido seguindo um processo incremental:
+O projeto foi desenvolvido de forma incremental:
 
 ```text
 Planejamento
+     ↓
+Criação do design
      ↓
 Estrutura HTML
      ↓
@@ -241,19 +235,15 @@ Correções e melhorias
 Deploy
 ```
 
-Essa abordagem permitiu desenvolver a interface por etapas e realizar ajustes conforme novos problemas eram identificados.
-
 ---
 
 ## 🚀 Deploy
 
-O projeto foi preparado para hospedagem utilizando a **Vercel**, permitindo disponibilizar a landing page online através de um processo de deploy integrado ao repositório GitHub.
+O projeto foi preparado para hospedagem utilizando a **Vercel**, permitindo a publicação da landing page e integração com o fluxo de versionamento do GitHub.
 
 ---
 
 ## 🔮 Melhorias futuras
-
-Algumas melhorias que podem ser implementadas futuramente:
 
 * [ ] Melhorar acessibilidade;
 * [ ] Implementar SEO mais completo;
@@ -271,7 +261,7 @@ Algumas melhorias que podem ser implementadas futuramente:
 
 🟢 **Projeto funcional**
 
-O HallLink continua sendo utilizado como projeto de estudo e portfólio para evolução das habilidades em desenvolvimento Front-end.
+O HallLink foi desenvolvido como um projeto profissional e permanece como parte do meu portfólio de desenvolvimento Front-end.
 
 ---
 
@@ -279,7 +269,7 @@ O HallLink continua sendo utilizado como projeto de estudo e portfólio para evo
 
 ### Kauê Miguel
 
-Estudante de **Análise e Desenvolvimento de Sistemas**, atualmente focado no desenvolvimento Front-end e na construção de projetos utilizando tecnologias web.
+Estudante de **Análise e Desenvolvimento de Sistemas**, com foco no desenvolvimento Front-end e na construção de projetos utilizando tecnologias web.
 
 Tenho interesse em continuar evoluindo principalmente em:
 
@@ -294,7 +284,7 @@ Tenho interesse em continuar evoluindo principalmente em:
 
 <p align="center">
   <a href="https://github.com/KaweM">
-    <img src="https://img.shields.io/badge/GitHub-KaweM-181717?style=for-the-badge&logo=github" alt="GitHub">
+    <img src="https://img.shields.io/badge/GitHub-KaWeM-181717?style=for-the-badge&logo=github" alt="GitHub">
   </a>
 </p>
 
