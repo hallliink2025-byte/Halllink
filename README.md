@@ -4,9 +4,7 @@
   <strong>Landing page institucional desenvolvida de ponta a ponta, com foco em experiência do usuário, responsividade e conversão.</strong>
 </p>
 
-<p align="center">
-  <a href="https://github.com/KaweM/Halllink">📂 Repositório</a>
-</p>
+<p align="center"> <a href="https://halllink.com.br/">🌐 Acessar projeto</a> • <a href="https://github.com/KaweM/Halllink">💻 Ver código</a> </p>
 
 ## 📸 Preview
 
