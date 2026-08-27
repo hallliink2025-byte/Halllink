@@ -4,7 +4,12 @@
   <strong>Landing page institucional desenvolvida de ponta a ponta, com foco em experiência do usuário, responsividade e conversão.</strong>
 </p>
 
-<p align="center"> <a href="https://halllink.com.br/">🌐 Acessar projeto</a> • <a href="https://github.com/KaweM/Halllink">💻 Ver código</a> </p>
+<p align="center">
+  <a href="https://halllink.com.br/">🌐 Acessar projeto</a> •
+  <a href="https://github.com/hallliink2025-byte/Halllink">💻 Ver código</a>
+</p>
+
+---
 
 ## 📸 Preview
 
@@ -12,32 +17,45 @@
   <img src="./assets/preview.png" alt="Preview da landing page HallLink" width="850">
 </p>
 
-> Interface desenvolvida para apresentar os serviços da HallLink de forma clara, moderna e responsiva, direcionando o usuário para o contato comercial via WhatsApp.
+> Landing page desenvolvida para apresentar os serviços da HallLink de forma clara, moderna e responsiva, com foco na experiência do usuário e na geração de contatos comerciais.
 
 ---
 
 ## 📋 Sobre o projeto
 
-O **HallLink** é uma landing page institucional desenvolvida para apresentar os serviços da empresa e facilitar a geração de novos contatos.
+O **HallLink** é uma landing page institucional desenvolvida para apresentar os serviços da empresa, fortalecer sua presença digital e facilitar a geração de novos contatos.
 
-O projeto foi desenvolvido utilizando **HTML5, CSS3 e JavaScript**, priorizando uma interface responsiva, organização visual e uma navegação simples e intuitiva.
+O projeto foi desenvolvido utilizando **HTML5, CSS3 e JavaScript**, priorizando uma interface moderna, responsiva e intuitiva.
 
-A página conta com diferentes seções para apresentar a empresa, seus serviços e informações relevantes ao visitante, além de recursos interativos desenvolvidos em JavaScript.
+A aplicação conta com diferentes seções para apresentação da empresa, serviços e informações relevantes, além de recursos interativos desenvolvidos em JavaScript e chamadas para ação direcionadas ao contato comercial via WhatsApp.
 
 ---
 
-## 👨‍💻 Minha atuação no projeto
+## 🎯 Objetivo
 
-Atuei como **único desenvolvedor responsável pelo projeto**, participando de todas as etapas do desenvolvimento da landing page, desde a concepção visual até a implementação e publicação da aplicação.
+O principal objetivo do projeto foi desenvolver uma **landing page profissional, responsiva e orientada à conversão**, capaz de:
+
+* Apresentar os serviços de forma clara e objetiva;
+* Facilitar a navegação do usuário;
+* Proporcionar uma experiência consistente em diferentes dispositivos;
+* Utilizar chamadas para ação (CTA) estratégicas;
+* Facilitar o contato comercial através do WhatsApp;
+* Aplicar boas práticas de desenvolvimento Front-end.
+
+---
+
+## 👨‍💻 Desenvolvimento
+
+O projeto foi desenvolvido **de ponta a ponta por KaweM**, responsável pelo planejamento, design, desenvolvimento, responsividade, interações, versionamento e publicação da aplicação.
 
 ### 🎨 Design e planejamento
 
-* Criação do design da landing page;
+* Criação e implementação do design da landing page;
 * Definição da identidade visual;
-* Organização da hierarquia visual e das seções;
+* Organização da hierarquia visual;
 * Planejamento da experiência de navegação;
 * Definição de cores, tipografia, espaçamentos e componentes;
-* Adaptação do design para diferentes tamanhos de tela.
+* Adaptação da interface para diferentes tamanhos de tela.
 
 ### 💻 Desenvolvimento Front-end
 
@@ -55,24 +73,7 @@ Atuei como **único desenvolvedor responsável pelo projeto**, participando de t
 * Controle de versão utilizando Git;
 * Organização do desenvolvimento através de commits e branches;
 * Gerenciamento do código através do GitHub;
-* Deploy e publicação da aplicação utilizando Vercel.
-
-### 🚀 Responsabilidade pelo projeto
-
-Fui responsável pelo projeto **de ponta a ponta**, desde a **concepção do design até o desenvolvimento, versionamento e deploy da aplicação**, trabalhando de forma independente em todas as etapas necessárias para colocar a landing page em produção.
-
----
-
-## 🎯 Objetivo
-
-O principal objetivo do projeto foi desenvolver uma **landing page moderna, responsiva e orientada à conversão**, capaz de:
-
-* Apresentar os serviços de forma objetiva;
-* Facilitar a navegação do usuário;
-* Criar uma experiência consistente em diferentes dispositivos;
-* Utilizar chamadas para ação (CTA) estratégicas;
-* Facilitar o contato através do WhatsApp;
-* Aplicar boas práticas de desenvolvimento Front-end.
+* Configuração e publicação da aplicação utilizando Vercel.
 
 ---
 
@@ -129,11 +130,11 @@ O principal objetivo do projeto foi desenvolver uma **landing page moderna, resp
 
 ### 📱 Menu responsivo
 
-Navegação adaptada para dispositivos móveis, permitindo que o usuário acesse as diferentes áreas da página de maneira simples.
+Navegação adaptada para dispositivos móveis, permitindo que o usuário acesse as diferentes áreas da página de maneira simples e intuitiva.
 
 ### 💬 Modal de contato
 
-Modal desenvolvido com JavaScript para facilitar o direcionamento do usuário ao contato através do WhatsApp.
+Modal desenvolvido com JavaScript para facilitar o direcionamento do usuário ao contato comercial através do WhatsApp.
 
 ### ❓ FAQ interativo
 
@@ -186,6 +187,8 @@ Foram utilizados **Media Queries, Flexbox, Grid e unidades relativas** para cont
 * Seções da landing page;
 * Comportamento em telas menores.
 
+O layout foi desenvolvido buscando manter uma experiência consistente em **desktop, tablet e dispositivos móveis**.
+
 ---
 
 ## 🧠 Principais desafios
@@ -206,6 +209,20 @@ O projeto exigiu a implementação de funcionalidades utilizando JavaScript, com
 * Modal de contato;
 * FAQ;
 * Eventos de interação.
+
+---
+
+## 💡 Experiência e conhecimentos aplicados
+
+Durante o desenvolvimento, foram aplicados e aprofundados conhecimentos em:
+
+* Desenvolvimento de interfaces responsivas;
+* Manipulação do DOM com JavaScript;
+* Implementação de interações e componentes;
+* Organização e manutenção de código;
+* Controle de versão com Git e GitHub;
+* Desenvolvimento orientado às necessidades do cliente;
+* Publicação e gerenciamento da aplicação com Vercel.
 
 ---
 
@@ -230,6 +247,8 @@ Testes em diferentes resoluções
      ↓
 Correções e melhorias
      ↓
+Versionamento
+     ↓
 Deploy
 ```
 
@@ -237,7 +256,11 @@ Deploy
 
 ## 🚀 Deploy
 
-O projeto foi preparado para hospedagem utilizando a **Vercel**, permitindo a publicação da landing page e integração com o fluxo de versionamento do GitHub.
+A aplicação foi publicada utilizando a **Vercel**, com integração ao repositório GitHub para facilitar o processo de versionamento e futuras atualizações.
+
+O projeto utiliza domínio personalizado:
+
+**https://halllink.com.br/**
 
 ---
 
@@ -257,19 +280,23 @@ O projeto foi preparado para hospedagem utilizando a **Vercel**, permitindo a pu
 
 ## 📌 Status
 
-🟢 **Projeto funcional**
+🟢 **Projeto em produção**
 
-O HallLink foi desenvolvido como um projeto profissional e permanece como parte do meu portfólio de desenvolvimento Front-end.
+A landing page está publicada e disponível através do domínio oficial da HallLink.
 
 ---
 
-## 👨‍💻 Desenvolvedor
+## 🤝 Créditos
 
-### Kauê Miguel
+O projeto foi desenvolvido para a **HallLink**, com **Kauê Miguel** como desenvolvedor responsável pela criação e implementação da landing page.
 
-Estudante de **Análise e Desenvolvimento de Sistemas**, com foco no desenvolvimento Front-end e na construção de projetos utilizando tecnologias web.
+### 👨‍💻 Desenvolvedor
 
-Tenho interesse em continuar evoluindo principalmente em:
+**KaweM**
+
+Estudante de **Análise e Desenvolvimento de Sistemas**, com foco no desenvolvimento Front-end e na construção de aplicações utilizando tecnologias web.
+
+Principais áreas de interesse:
 
 * Front-end;
 * JavaScript;
@@ -278,7 +305,7 @@ Tenho interesse em continuar evoluindo principalmente em:
 * Lógica de programação;
 * Inteligência Artificial.
 
-### 🔗 Links
+### 🔗 Portfólio e contato
 
 <p align="center">
   <a href="https://github.com/KaweM">
@@ -288,6 +315,15 @@ Tenho interesse em continuar evoluindo principalmente em:
 
 ---
 
+## 📄 Observação
+
+Este repositório contém o código-fonte utilizado no desenvolvimento da landing page da HallLink.
+
+O projeto foi desenvolvido por **Kauê Miguel** e posteriormente transferido para a conta GitHub da HallLink para continuidade e gerenciamento do projeto.
+
+---
+
 <p align="center">
   <strong>Desenvolvido com HTML, CSS e JavaScript 💻</strong>
 </p>
+
