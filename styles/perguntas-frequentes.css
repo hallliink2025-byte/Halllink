@@ -44,6 +44,11 @@
   text-align: left;
 }
 
+.perguntas-frequentes-pergunta:focus-visible {
+  outline: 3px solid var(--cor-segundaria);
+  outline-offset: -3px;
+}
+
 .perguntas-frequentes-icone {
   flex: 0 0 20px;
   width: 20px;

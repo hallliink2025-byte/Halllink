@@ -1,20 +1,41 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const botoes = document.querySelectorAll('.perguntas-frequentes-pergunta');
- 
-  botoes.forEach((botao) => {
+  const itens = document.querySelectorAll('.perguntas-frequentes-item');
+
+  function fecharItem(item) {
+    const botao = item.querySelector('.perguntas-frequentes-pergunta');
+    const resposta = item.querySelector('.perguntas-frequentes-resposta');
+
+    if (!botao || !resposta) return;
+
+    item.classList.remove('aberto');
+    botao.setAttribute('aria-expanded', 'false');
+    resposta.setAttribute('aria-hidden', 'true');
+    resposta.inert = true;
+  }
+
+  function abrirItem(item) {
+    const botao = item.querySelector('.perguntas-frequentes-pergunta');
+    const resposta = item.querySelector('.perguntas-frequentes-resposta');
+
+    if (!botao || !resposta) return;
+
+    item.classList.add('aberto');
+    botao.setAttribute('aria-expanded', 'true');
+    resposta.setAttribute('aria-hidden', 'false');
+    resposta.inert = false;
+  }
+
+  itens.forEach((item) => {
+    const botao = item.querySelector('.perguntas-frequentes-pergunta');
+
+    if (!botao) return;
+
     botao.addEventListener('click', () => {
-      const item = botao.closest('.perguntas-frequentes-item');
-      const estaAberto = item.classList.contains('aberto');
- 
-      document.querySelectorAll('.perguntas-frequentes-item.aberto').forEach((aberto) => {
-        aberto.classList.remove('aberto');
-        aberto.querySelector('.perguntas-frequentes-pergunta').setAttribute('aria-expanded', 'false');
-      });
- 
-      if (!estaAberto) {
-        item.classList.add('aberto');
-        botao.setAttribute('aria-expanded', 'true');
-      }
+      const estaAberto = botao.getAttribute('aria-expanded') === 'true';
+
+      itens.forEach(fecharItem);
+
+      if (!estaAberto) abrirItem(item);
     });
   });
 });
